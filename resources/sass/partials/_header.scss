@@ -1,0 +1,48 @@
+header{
+    .header-top{
+        background-color: $mainColor;
+        display: flex;
+        justify-content: right;
+        .header-top-nav{
+            & a{
+                color: white;
+                display: inline-block;
+                padding: 1.25rem;
+            }
+              
+        }
+    }
+    .header-bottom{
+        background-color: white;
+        .logo{
+            width: 5rem;
+            img{
+                width: 100%;
+            }
+        }
+        & .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-bottom-nav ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: $secondColor;
+                    padding: 1.25rem .625rem;
+                }
+                
+            }
+        }
+    }
+    .header-bototm-search{
+        input{
+            border: 0;
+            border-bottom: 2px solid $mainColor;
+        }
+    }
+}

@@ -8,3 +8,58 @@ body {
   background-color: aquamarine;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header .header-top {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: right;
+}
+
+header .header-top .header-top-nav a {
+  color: white;
+  display: inline-block;
+  padding: 1.25rem;
+}
+
+header .header-bottom {
+  background-color: white;
+}
+
+header .header-bottom .logo {
+  width: 5rem;
+}
+
+header .header-bottom .logo img {
+  width: 100%;
+}
+
+header .header-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-bottom .header-bottom-nav ul {
+  list-style: none;
+}
+
+header .header-bottom .header-bottom-nav ul li {
+  display: inline-block;
+}
+
+header .header-bottom .header-bottom-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #292929;
+  padding: 1.25rem 0.625rem;
+}
+
+header .header-bototm-search input {
+  border: 0;
+  border-bottom: 2px solid #0282f9;
+}
+
