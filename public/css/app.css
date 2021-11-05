@@ -59,3 +59,7 @@ header .hero {
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
 }
+
+main {
+  background-color: #292929;
+}
