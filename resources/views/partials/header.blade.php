@@ -1,9 +1,13 @@
 <header>
     <div class="header-top">
-        <header-top-nav>
-            <a href="#">DC POWER Visa</a>
-            <a href="#">Adittionals dc sites</a>
-        </header-top-nav>
+        <div class="container">
+            <nav>
+                <a href="#">DC POWER Visa</a>
+                <a href="#">Adittionals dc sites</a>
+            </nav>
+        </div>
+
+  
     </div>
     <div class="header-bottom">
         <div class="container">
@@ -44,9 +48,12 @@
                 </li>
               </ul>
           </div>
-          <div class="header-bototm-search">
+          <div class="header-bottom-search">
               <input type="text" placeholder="Search">
           </div>
         </div>
+    </div>
+    <div class="hero">
+      
     </div>
 </header>
