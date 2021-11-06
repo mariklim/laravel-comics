@@ -106,3 +106,25 @@ main .container button {
   color: white;
   margin-bottom: 1.25rem;
 }
+main .merchandise {
+  background-color: #0282f9;
+}
+main .merchandise ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+main .merchandise ul li {
+  width: 20%;
+  padding: 1.25rem;
+}
+main .merchandise .link-merchandise {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+main .merchandise .link-merchandise img {
+  width: 20%;
+  margin: 1.25rem;
+}

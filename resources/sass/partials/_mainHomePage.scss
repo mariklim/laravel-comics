@@ -47,4 +47,28 @@ main{
             
         }
     }
+    .merchandise{
+        background-color: $mainColor;
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li{
+                width: calc(100% / 5);
+
+              padding: 1.25rem;
+            }
+        }
+        .link-merchandise{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            
+            img{
+           width: 20%;
+           margin: 1.25rem;
+            } 
+        }
+    }
 }
