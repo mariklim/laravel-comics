@@ -1,6 +1,9 @@
 @extends('layouts.base')
 @section('pageContent')
     <section class="container">
+        <div class="current-series">
+            Current Series
+        </div>
         <div class="cards">
             @foreach ($comicsArray as $comics)
             <div class="card">
@@ -13,5 +16,9 @@
             </div>   
             @endforeach
         </div>
+        
+        <button>
+            LOAD MORE
+        </button>
     </section>
 @endsection

@@ -63,22 +63,46 @@ header .hero {
 main {
   background-color: #292929;
 }
+main .container {
+  text-align: center;
+  position: relative;
+}
+main .container .current-series {
+  position: absolute;
+  top: -1%;
+  background-color: #0282f9;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.3125rem 1.25rem;
+  font-size: 1.5625rem;
+}
 main .container .cards {
+  padding: 1.875rem 0 0.9375rem 0;
   display: flex;
   flex-wrap: wrap;
 }
 main .container .cards .card {
-  width: 16.6666666667%;
+  width: calc(16.6666666667% - 3.125rem);
+  margin: 1.5625rem;
   color: white;
   text-transform: uppercase;
   text-align: center;
+  font-size: 0.9375rem;
 }
 main .container .cards .card .card-img {
   width: 12.5rem;
   height: 12.5rem;
   overflow: hidden;
+  margin-bottom: 1.25rem;
 }
 main .container .cards .card .card-img img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+main .container button {
+  background-color: #0282f9;
+  border: 0;
+  padding: 0.625rem 1.5625rem;
+  color: white;
+  margin-bottom: 1.25rem;
 }

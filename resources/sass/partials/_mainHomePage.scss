@@ -1,18 +1,35 @@
 main{
     background-color: $secondColor;
     .container{
+        text-align: center;
+        position: relative;
+        .current-series{
+            position: absolute;
+            top: -1%;
+            background-color: $mainColor;
+            color: white;
+            text-transform: uppercase;
+            padding: .3125rem 1.25rem;
+            font-size: 1.5625rem
+        }
         .cards{
+            padding: 1.875rem 0 .9375rem 0 ;
             display: flex;
             flex-wrap: wrap;
             .card{
-                width: calc(100% / 6);
+                width: calc((100% / 6 ) - 3.125rem);
+                margin: 1.5625rem;
                 color: white;
                 text-transform: uppercase;
                 text-align: center;
+                font-size: .9375rem ;
+             
                 .card-img{
                     width: 12.5rem;;
                     height: 12.5rem;
                     overflow: hidden;
+                    margin-bottom: 1.25rem;
+            
                     img{
                         object-fit: cover;
                     }
@@ -20,6 +37,14 @@ main{
 
                 
             }
+        }
+        button{
+            background-color: $mainColor;
+            border: 0;
+            padding: .625rem 1.5625rem;
+            color:  white;
+            margin-bottom: 1.25rem;
+            
         }
     }
 }
