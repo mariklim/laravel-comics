@@ -63,3 +63,22 @@ header .hero {
 main {
   background-color: #292929;
 }
+main .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container .cards .card {
+  width: 16.6666666667%;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .container .cards .card .card-img {
+  width: 12.5rem;
+  height: 12.5rem;
+  overflow: hidden;
+}
+main .container .cards .card .card-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
