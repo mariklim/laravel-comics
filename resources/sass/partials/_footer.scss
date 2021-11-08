@@ -1,21 +1,36 @@
 .footer-top {
     background-image: url("../images/footer-bg.jpg");
+    
     & .container {
-      display: flex;
+      display: flex ;  
       color: white;
-      padding: 2.5rem 0;
-      & .col {
-        padding: 0 1.25rem;
-        & h2{
-          margin-bottom: .625rem;
-        }
-        & ul{
-            list-style: none;
-            & li{
-              font-size: .8125rem;
-              color: gray;
-        }
-        }
+      .footer-top-left{
+        padding: 2.5rem 0;
+        width: 60%;
+          .nav{
+              display: flex;
+              .col {
+                padding: 0 1.25rem;
+                
+                & h2{
+                  margin-bottom: .625rem;
+                }
+                & ul{
+                    list-style: none;
+                    & li{
+                      font-size: .8125rem;
+                      color: gray;
+                }
+                }
+              }
+          }
+      }
+      .footer-top-right{
+          width: 40%;
+          color:white;
+          background-image: url("../images/dc-logo-bg.png");
+          background-size: cover;
+         background-position: center;
       }
     }
     p.copyright{

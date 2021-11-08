@@ -139,20 +139,33 @@ main .merchandise .link-merchandise img {
 .footer-top .container {
   display: flex;
   color: white;
-  padding: 2.5rem 0;
 }
-.footer-top .container .col {
+.footer-top .container .footer-top-left {
+  padding: 2.5rem 0;
+  width: 60%;
+}
+.footer-top .container .footer-top-left .nav {
+  display: flex;
+}
+.footer-top .container .footer-top-left .nav .col {
   padding: 0 1.25rem;
 }
-.footer-top .container .col h2 {
+.footer-top .container .footer-top-left .nav .col h2 {
   margin-bottom: 0.625rem;
 }
-.footer-top .container .col ul {
+.footer-top .container .footer-top-left .nav .col ul {
   list-style: none;
 }
-.footer-top .container .col ul li {
+.footer-top .container .footer-top-left .nav .col ul li {
   font-size: 0.8125rem;
   color: gray;
+}
+.footer-top .container .footer-top-right {
+  width: 40%;
+  color: white;
+  background-image: url("../images/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
 }
 .footer-top p.copyright {
   color: gray;
