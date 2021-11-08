@@ -1,4 +1,4 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,6 +7,10 @@
 .container {
   width: 80%;
   margin: auto;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 header .header-top {
@@ -127,4 +131,65 @@ main .merchandise .link-merchandise {
 main .merchandise .link-merchandise img {
   width: 20%;
   margin: 1.25rem;
+}
+
+.footer-top {
+  background-image: url("../images/footer-bg.jpg");
+}
+.footer-top .container {
+  display: flex;
+  color: white;
+  padding: 2.5rem 0;
+}
+.footer-top .container .col {
+  padding: 0 1.25rem;
+}
+.footer-top .container .col h2 {
+  margin-bottom: 0.625rem;
+}
+.footer-top .container .col ul {
+  list-style: none;
+}
+.footer-top .container .col ul li {
+  font-size: 0.8125rem;
+  color: gray;
+}
+.footer-top p.copyright {
+  color: gray;
+}
+.footer-top .copyright-active {
+  color: #0282f9;
+}
+
+.footer-bottom {
+  background-color: #292929;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 2.5rem 0;
+}
+.footer-bottom .container .social-CTA {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .container .social-CTA span {
+  color: #0282f9;
+}
+.footer-bottom .container .signUp {
+  background: transparent;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 0.4375rem 1.25rem;
+  font-size: 1.0625rem;
+}
+
+.icons-social ul {
+  list-style: none;
+  display: flex;
+  padding: 0 1.25rem;
+}
+.icons-social ul li {
+  padding: 0 0.625rem;
 }
